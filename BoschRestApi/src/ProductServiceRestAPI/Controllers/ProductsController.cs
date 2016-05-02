@@ -9,7 +9,7 @@ namespace ProductServiceRestAPI.Controllers
     [Route("[controller]")]
     public class ProductsController : Controller
     {
-        // GET: api/values
+        // GET: products
         [HttpGet]
         public IEnumerable<string> Get()
         {
